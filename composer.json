@@ -1,0 +1,25 @@
+{
+  "name": "mrcat29/form",
+  "description": "generate form PHP to HTML",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "freddy vargas",
+      "email": "fjvargas0629@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "jakezatecky/array_group_by": "^1.0.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "~0.9",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrCat\\": "src/mrcat"
+    }
+  }
+}
