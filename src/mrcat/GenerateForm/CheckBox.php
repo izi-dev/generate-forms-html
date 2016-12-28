@@ -12,10 +12,10 @@ class CheckBox extends Form
     public static function make($name, $default = false, array $options = [])
     {
         $radio = new static();
-        $default['type'] = 'checkbox';
         if ($default) {
             $default['checked'] = '';
         }
+        $default['type'] = 'checkbox';
         $options = array_merge($options, $default);
         return $radio->input($radio->setDefaultAttr($options, $name));
     }
